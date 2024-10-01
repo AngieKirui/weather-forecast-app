@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eed1ee;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-app {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #ebe4ec;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.current-weather,
+.forecast-weather {
+  margin-top: 20px;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.forecast-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  width: 120px;
+}
